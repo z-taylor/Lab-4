@@ -16,4 +16,4 @@ match (opt):
     case opt if opt==4:
         print("Thank you, goodbye!")
     case _:
-        print("Invalid option!")
+        print("Invalid input, please try again!")

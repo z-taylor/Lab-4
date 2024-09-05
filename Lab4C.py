@@ -6,10 +6,10 @@ while run:
     opt = int(input("Please make a selection: "))
     match (opt):
         case opt if opt == 0:
-            balance = balance + (int(input("How much would you like to deposit?: ")))
+            balance = balance + (float(input("How much would you like to deposit?: ")))
             print(f"Your current balance is ${balance}")
         case opt if opt == 1:
-            withdrawal = int(input("How much would you like to withdraw?: "))
+            withdrawal = float(input("How much would you like to withdraw?: "))
             if balance >= withdrawal:
                 balance = (balance - withdrawal) 
             else:
